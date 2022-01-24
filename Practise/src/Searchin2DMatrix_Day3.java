@@ -9,7 +9,7 @@ public class Searchin2DMatrix_Day3 {
         // }
         // return false;
 
-        // O(n*logn)
+        // O(m*logn)
         // for(int i=0;i<matrix.length;i++){
         //     int start=0,end=matrix[0].length-1;
         //     while(start<=end){
@@ -36,7 +36,7 @@ public class Searchin2DMatrix_Day3 {
         // }
         // return false;
 
-        //O(logn)
+        //O(logmn)
         int cols=matrix[0].length,rows=matrix.length;
         int start=0,end=(rows*cols)-1;
         while(start<=end){
